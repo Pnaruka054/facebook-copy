@@ -317,7 +317,7 @@
 #center {
   height: 90vh;
   width: 40vw;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 #center::-webkit-scrollbar {
@@ -335,10 +335,6 @@
 
 #center::-webkit-scrollbar-track:hover {
   background-color: #88888834;
-}
-
-#center:hover {
-  overflow: overlay;
 }
 
 #center1 {

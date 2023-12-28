@@ -931,7 +931,7 @@
     display: none;
   }
 
-  .left, .center, .right {
-    height: 94vh;
+  body {
+    background-color: rgb(23, 24, 26);
   }
 }

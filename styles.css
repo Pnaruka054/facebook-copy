@@ -92,7 +92,7 @@
 
 #mainchild3 {
   height: 100%;
-  width: 230px;
+  width: 210px;
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -102,14 +102,11 @@
 #mainchild3i2,
 #mainchild3i3,
 #mainchild3i4 {
-  height: 80%;
+  height: 70%;
   background-color: rgb(92, 92, 92);
   margin-left: 10px;
   color: white;
   font-size: 21px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   border-style: none;
   border-radius: 50%;
@@ -128,9 +125,11 @@
 }
 
 .mainchild3i {
-  height: 100%;
-  width: 100%;
-  border: 1px solid white;
+  height: 70%;
+  min-width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainchild3i a {
@@ -930,5 +929,9 @@
 
   #input {
     display: none;
+  }
+
+  .left, .center, .right {
+    height: 94vh;
   }
 }

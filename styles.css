@@ -898,6 +898,19 @@
 
   .left {
     display: none;
+    overflow-x: hidden;
+  }
+
+  .center {
+    overflow-x: hidden;
+  }
+
+  .left {
+    overflow-x: hidden;
+  }
+
+  #main2 {
+    overflow-x: hidden;
   }
 
   #mainstickar:hover .stickar {
@@ -933,5 +946,22 @@
 
   body {
     background-color: rgb(23, 24, 26);
+  }
+
+  .left {
+    display: none;
+    overflow-x: hidden;
+  }
+
+  .center {
+    overflow-x: hidden;
+  }
+
+  .left {
+    overflow-x: hidden;
+  }
+
+  #main2 {
+    overflow-x: hidden;
   }
 }

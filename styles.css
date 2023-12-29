@@ -999,7 +999,7 @@
   }
 
   #center {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   #center1 {

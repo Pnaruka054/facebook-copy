@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 
 #mainchild1 {
@@ -188,6 +189,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   background-color: rgb(23, 24, 26);
+  overflow-x: hidden;
 }
 
 .leftchild {
@@ -924,7 +926,7 @@
   }
 }
 
-@media screen and (max-width: 656px) {
+@media screen and (max-width: 930px) {
   #mainchild2 {
     display: none;
   }
@@ -973,6 +975,22 @@
 
   .circlemenu {
     visibility: visible;
+  }
+
+  #main22 {
+    height: 40px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #mainchild22 {
+    height: 100%;
+  }
+
+  body {
+    background-color: rgb(23, 24, 26);
+    overflow: hidden;
   }
 }
 

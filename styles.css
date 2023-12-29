@@ -991,15 +991,12 @@
 
   body {
     background-color: rgb(23, 24, 26);
+    overflow: hidden;
   }
 
   .left {
     display: none;
     overflow-x: hidden;
-  }
-
-  #center {
-    overflow: hidden;
   }
 
   #center1 {

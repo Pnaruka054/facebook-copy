@@ -999,9 +999,12 @@
     overflow-x: hidden;
   }
 
+  #center {
+    height: 87vh
+  }
+
   #center1 {
     margin: 10px auto;
-    padding-bottom: 100px;
   }
 
   .left {

@@ -138,6 +138,51 @@
 
 /* Main 1 is ended now */
 
+#main22 {
+  height: 30px;
+  background-color: rgb(23, 24, 26);
+  display: none;
+}
+
+#mainchild22 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#mainchild22i1,
+#mainchild22i2,
+#mainchild22i3,
+#mainchild22i4,
+#mainchild22i5 {
+  height: 100%;
+  width: 20%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainchild22i1 a,
+#mainchild22i2 a,
+#mainchild22i3 a,
+#mainchild22i4 a,
+#mainchild22i5 a {
+  text-decoration: none;
+  color: rgb(194, 194, 194);
+}
+
+#mainchild22i1:hover,
+#mainchild22i2:hover,
+#mainchild22i3:hover,
+#mainchild22i4:hover,
+#mainchild22i5:hover {
+  background-color: rgb(71, 71, 71);
+  border-radius: 30px;
+}
+
 #main2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -953,8 +998,12 @@
     overflow-x: hidden;
   }
 
-  .center {
+  #center {
     overflow-x: hidden;
+  }
+
+  #center1 {
+    margin: 10px auto;
   }
 
   .left {
@@ -963,5 +1012,15 @@
 
   #main2 {
     overflow-x: hidden;
+  }
+
+  #main22 {
+    height: 40px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  #mainchild22 {
+    height: 100%;
   }
 }
